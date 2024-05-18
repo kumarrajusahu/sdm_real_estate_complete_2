@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* -----navigation bar--- */
+  
+  nav {
+    font-weight: 600;
+    /* background-color: #005ca8; */
+    background-color: white;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 2;
+  }
+  
+  .navLeft {
+    float: left;
+  }
+  
+  .nav-item :hover {
+    text-decoration: underline;
+    color: #eca12c !important;
+  }
+  
+  .navLeft button {
+    padding: 4px 9px 7px 13px;
+    font-weight: 800;
+    background-color: #337ab7;
+    color: white;
+    width: 6em;
+    margin-left: 1em !important;
+  }
+  
+  nav div ul {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  /* ---------contact--- */
+  
+.submit{
+  background-color:#3277b2;
+  --bs-btn-bg: unset !important;
+  width: 96%;
+    margin-left: 14px;
+}
+
+.box p{
+  padding-left: 14px;
+}
+.box h3{
+  padding-left: 14px;
+}
+
+textarea{
+  height: 150px !important;
+}
+  
+  /* -----footer---- */
+  
+  footer {
+    background-color: #151c22;
+    color: white;
+  }
+  
+  footer ul li {
+    list-style: none;
+    /* text-decoration: none;
+      color: white; */
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer h5 {
+    padding-left: 1.5em;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: #f4f5f7;
+  }
+  
+  /* -----media quiry-------- */
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    /* h5 {
+      width: 100% !important;
+    } */
+    
+    .submit{
+      width: 93%;
+    }
+    .nav-item {
+      margin-left: 0em;
+    }
+  
+    .img-mobile {
+      height: 30em;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    ...;
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    ...;
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* nav div ul{
+    
+        margin-right: auto !important;
+        margin-right: auto !important;
+      } */
+  
+    .navbar-expand-lg .navbar-nav {
+      /* flex-direction: row;
+        margin-left: auto !important; */
+      /* margin-right: auto !important; */
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* @media only screen and (min-width: 1200px) {...} */
+  

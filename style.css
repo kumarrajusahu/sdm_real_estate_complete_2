@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -----navigation bar--- */
+
+nav {
+  font-weight: 600;
+  /* background-color: #005ca8; */
+  background-color: white;
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 2;
+}
+
+.navLeft {
+  float: left;
+}
+
+.nav-item :hover {
+  text-decoration: underline;
+  color: #eca12c !important;
+}
+
+.navLeft button {
+  padding: 4px 9px 7px 13px;
+  font-weight: 800;
+  background-color: #337ab7;
+  color: white;
+  width: 6em;
+  margin-left: 1em !important;
+}
+
+nav div ul{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+nav div ul li a {
+  /* color: white !important; */
+}
+
+/* -----carousel-------- */
+
+.carousel-item div h5 {
+  font-size: 4em;
+  color: #ec9a2e;
+  font-weight: 700;
+}
+.carousel-item div p {
+  color: hsl(34, 83%, 55%);
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.carousel-caption {
+  padding-bottom: 7em;
+}
+.contact {
+  border: 0px;
+  border-radius: 3em;
+  background-color: #f1f0e8;
+  padding: 7px !important ;
+}
+
+/* ------intro------ */
+.intro {
+  /* background-color: #eee0c9; */
+  background-color: #ffffff;
+  margin: 0em 6em;
+}
+#house {
+  color: hsl(34, 83%, 55%);
+}
+
+#load {
+  background-color: #f1f0e8;
+}
+
+/* ------projects-------- */
+
+.project-img {
+  height: 46em;
+}
+.heading {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 3px;
+  color: black;
+}
+h2 {
+  /* color: #01a358; */
+  color: #151c22;
+}
+/* -----=plots------- */
+.plots {
+  margin: 0em 6em 0em 6em;
+}
+.cell {
+  width: 30%;
+  height: 300px;
+  margin: 0 5px;
+  overflow: hidden;
+  /* border: 0px 5px 0px 5px; */
+  border-width: 5px !important;
+  border-color: #eaf3fa !important;
+  border-radius: 10px;
+}
+
+/* -------maps---------- */
+.maps {
+  margin: 0em 6em 0em 6em;
+}
+
+.adjusting-h {
+  height: 16.5em;
+  width: 100%;
+}
+.bg-map {
+  background-color: #fff8ee;
+}
+/* -----footer form------ */
+/* form {
+  background-color: #ffffff;
+}
+#signup {
+  font-size: 3em;
+  margin-top: 3em;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+form input {
+  height: 5em;
+}
+
+.input-box {
+  border-radius: 50%;
+  position: relative;
+}
+.input-b {
+  width: 5em;
+
+  position: relative;
+  bottom: 59px;
+}
+
+.form-control {
+  margin-top: 2em;
+  background-color: #f4f5f7;
+} */
+
+.input-container{
+  background-color: white;
+  height: 5em;
+  margin-top: 3em;
+  float: left;
+}
+form span{
+  font-size: 3em;
+}
+.input-container button{
+ margin-right: 5em;
+ border: none;
+ height: 3em;
+ margin-top: 1em;
+ 
+}
+
+
+/* -----footer---- */
+
+footer {
+  background-color: #151c22;
+  color: white;
+}
+
+footer ul li {
+  list-style: none;
+  /* text-decoration: none;
+  color: white; */
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer h5 {
+  padding-left: 1.5em;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f4f5f7;
+}
+
+/* -----media quiry-------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .intro {
+    margin: 0em 1em;
+  }
+
+  .heading {
+    font-size: 1.2em;
+  }
+  #load {
+    position: relative;
+    bottom: 1em;
+  }
+
+  .cell img {
+    width: 100%;
+    height: 16.5em !important;
+  }
+
+  .projects {
+    padding: 1em !important;
+  }
+ 
+
+  .projects {
+    margin: 0em 0em 0em 0em !important;
+}
+
+
+
+
+
+  .plots {
+    margin: 0em 1em 2em 1em;
+  }
+
+  .project-img {
+    height: 12em;
+  }
+  .cell {
+    width: 100%;
+    
+  }
+
+  .maps {
+    margin: 0em 1em 3em 1em;
+  }
+
+  /* #signup {
+    font-size: 2em;
+  } */
+
+  .news {
+    margin-top: 1px;
+  }
+
+
+  h5 {
+    width: 100% !important;
+  }
+
+  .nav-item {
+    margin-left: 0em;
+  }
+
+  .input-b {
+    position: relative;
+    right: -250px;
+  }
+
+  
+  .input-container button {
+    margin-right: 0em !important;
+    border: none;
+    height: 3em;
+    margin-top: 1em;
+}
+form .input-container input{
+  width: 100%;
+  padding-left: 2em;
+}
+form span {
+  font-size: 2em;
+}
+
+
+.input-container {
+  background-color: white;
+  height: 5em;
+  margin-top: 3em;
+  float: left;
+  width: 100%;
+  margin-left: 0px ! important;
+}
+
+.input-margin{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.img-mobile{
+  height: 30em;
+}
+
+.img-mobile img{
+  height: 100%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* nav div ul{
+
+    margin-right: auto !important;
+    margin-right: auto !important;
+  } */
+
+  .navbar-expand-lg .navbar-nav {
+    /* flex-direction: row;
+    margin-left: auto !important; */
+    /* margin-right: auto !important; */
+}
+}
+  .projects {
+    margin: 0em 6em 0em 6em;
+  }
+
+
+
+
+  .input-container {
+    /* background-color: white; */
+    /* height: 5em; */
+    /* margin-top: 3em; */
+    /* float: left; */
+    margin-left: 8em;
+    /* margin-right: auto; */
+}
+
+
+
+  .input-b {
+    position: relative;
+    right: -275px;
+  }
+  .input-box {
+    margin-left: 8em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+

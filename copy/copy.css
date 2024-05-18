@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* -----navigation bar--- */
+  
+  nav {
+    font-weight: 800;
+    background-color: white;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 2;
+  }
+  nav ul li a{
+    color:rgb(255,255,255);
+  }
+  
+  .navLeft {
+    float: left;
+  }
+  
+  .nav-item :hover {
+    text-decoration: underline;
+    color: #eca12c !important;
+  }
+  
+  .navLeft button {
+    padding: 4px 9px 7px 13px;
+    font-weight: 800;
+    background-color: #337ab7;
+    color: white;
+    width: 6em;
+    margin-left: 1em !important;
+  }
+  
+  /* -----carousel-------- */
+  
+  
+  .carousel-item div h5 {
+    font-size: 4em;
+    color: #ec9a2e;
+    font-weight: 700;
+  }
+  .carousel-item div p {
+    color: hsl(34, 83%, 55%);
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  .carousel-caption {
+    padding-bottom: 7em;
+  }
+  .contact {
+    border: 0px;
+    border-radius: 3em;
+    background-color: #f1f0e8;
+    padding: 7px !important ;
+  }
+  
+  /* ------intro------ */
+  .intro {
+       background-color: rgb(244, 245, 247;
+       
+    margin: 0em 6em;
+  }
+  #house {
+    color: hsl(34, 83%, 55%);
+  }
+  
+  #load {
+    background-color: #f1f0e8;
+  }
+  
+  /* ------projects-------- */
+  
+  .project-img {
+    height: 46em;
+  }
+  .heading {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 3px;
+    color: #a02e23;
+  }
+  h2 {
+    color: #01a358;
+  }
+  /* -----=plots------- */
+  .plots {
+    margin: 0em 6em 0em 6em;
+  }
+  .cell {
+    width: 30%;
+    height: 300px;
+    margin: 0 5px;
+    overflow: hidden;
+    border: 0px 5px 0px 5px !important;
+    border-color: hsl(0, 66%, 50%) !important;
+    border-radius: 10px;
+  }
+  
+  /* -------maps---------- */
+  .maps {
+    margin: 0em 6em 0em 6em;
+  }
+  
+  .adjusting-h {
+    height: 17em;
+  }
+  
+  /* -----footer form------ */
+  form {
+    background-color:rgb(246, 251, 255);
+  
+  }
+  #signup {
+    font-size: 3em;
+    margin-top: 3em;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+  
+  form input {
+    height: 5em;
+  }
+  
+  /* -----footer---- */
+  
+  footer{
+    background-color: rgb(21, 28, 34);
+        color: white;
+  }
+  
+  footer ul li{
+    list-style: none;
+  }
+  
+  footer h5{
+    padding-left: 1em;
+  }
+  
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* -----media quiry-------- */
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .intro {
+      margin: 0em 1em;
+    }
+  
+    .heading {
+      font-size: 2em;
+    }
+    #load {
+      position: relative;
+      bottom: 1em;
+    }
+  
+    .cell img{
+      width: 100%;
+      height: 19em;
+    }
+  
+   
+    .projects {
+      padding: 1em !important;
+    }
+  
+    .plots {
+      margin: 0em 1em 2em 1em;
+    }
+  
+  
+    .project-img {
+      height: 11em;
+  }
+    .cell {
+      width: 100%;
+    }
+  
+    .maps {
+      margin: 0em 1em 3em 1em;
+    }
+  
+    #signup {
+      font-size: 2em;
+    }
+  
+    .news {
+      margin-top: 1px;
+    }
+    
+  
+    
+  
+    .carousel-item {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    h5 {
+      width: 100% !important;
+    }
+  
+    .nav-item {
+      margin-left: 0em;
+    }
+  
+    .input-b {
+      position: relative;
+      right: -250px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    ...;
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    ...;
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .projects {
+      margin: 0em 6em 0em 6em;
+    }
+  
+    .input-b {
+      position: relative;
+      right: -275px;
+    }
+    .input-box {
+      margin-left: 8em;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* @media only screen and (min-width: 1200px) {...} */
+  
+  .input-box {
+    border-radius: 50%;
+    position: relative;
+  }
+  .input-b {
+    width: 5em;
+  
+    position: relative;
+    bottom: 59px;
+  }
+  
+  .form-control {
+    margin-top: 2em;
+  }
